@@ -1,7 +1,7 @@
 package ru.yuliayu.sort.util;
 
 public class Sheker {
-    public static int[] shekerSort(int[] array, int length){
+    public static void shekerSort(int[] array, int length){
         int left = 0;
         int right = length - 1;
         while (left < right){
@@ -22,6 +22,5 @@ public class Sheker {
             }
             left++;
         }
-        return array;
     }
 }

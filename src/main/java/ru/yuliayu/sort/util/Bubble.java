@@ -1,7 +1,7 @@
 package ru.yuliayu.sort.util;
 
-public class Bubl {
-    public static int[] sort(int[] array, int length){
+public class Bubble {
+    public static void bubbleSort(int[] array, int length){
         for(int i = 0; i < length; i++){
             for(int j = i; j < length; j++){
                 if(array[i] > array[j]){
@@ -11,6 +11,5 @@ public class Bubl {
                 }
             }
         }
-        return array;
     }
 }

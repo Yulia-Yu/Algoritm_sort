@@ -1,11 +1,10 @@
 package ru.yuliayu.sort.service;
 
 public class ActionArray {
-    public static int[] filling (int[] array){
+    public static void filling (int[] array){
         for(int i = 0; i < array.length; i++){
             array[i] = (int) (Math.random() * 18 - 5);
         }
-        return array;
     }
 
     public static void write(int[] array){
